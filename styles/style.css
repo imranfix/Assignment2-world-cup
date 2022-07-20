@@ -85,6 +85,35 @@ img.first-image{
     
 }
 
+.box-form {
+    
+    background-color: #161616;
+    height: 285px;
+    width: 272px;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-top: 120px;
+    
+}
+
+.set-box a{
+    text-decoration: none;
+    display: block;
+    padding: 30px 0px;
+    color: #FFFFFF;
+
+}
+
+
+span{
+
+    color: #FFFFFF;
+    background-color: #DD0000;
+    padding: 10px 80px;
+    border-radius: 7px;
+}
+
 .test{
     height: 312px;
     width: 312px;
@@ -143,16 +172,22 @@ img.first-image{
 
 .box-shadow{
     box-shadow: 0px 10px 40px gray;
-    height: 303px;
+    height: 353px;
     width: 276px;
     margin-top: 20px;
-    margin-left: 12px;
+    margin-left: 13px;
     border-radius: 8px;
     background-color: #FFFFFF;
     padding: 18px 18px;
        
 }
 
+.fit{
+
+    margin-top: -18px;
+    margin-left: -18px;
+
+}
 
 .transfer-btn{
 
@@ -228,9 +263,24 @@ hr{
 
 }
 
-ul li{
+.services{
 
     font-size: 0.8rem;
     font-weight: 700;
     color: #B9B9B9;
+}
+
+.icon a{
+
+    color: #DD0000;
+}
+
+.icon {
+
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 20px 30px;
+
+
+
 }
