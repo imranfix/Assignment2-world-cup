@@ -84,7 +84,7 @@ h1.banner-text{
 .button-link:hover{
     box-shadow: inset 300px 0 0 0 lightgreen;
     cursor: pointer;
-    color: #000;
+    color: #161616;
 }
 
 img.first-image{
@@ -114,7 +114,7 @@ img.first-image{
 
     height: 255px;
     width: 270px;
-    background-color: black;
+    background-color: #161616;
     margin: 50px 59px 50px 50px;
     display: inline-block;
     border-radius: 7px;
@@ -126,7 +126,7 @@ img.first-image{
     display: flex;
     justify-content: center;
     text-decoration: none;
-    color: black;
+    color: #161616;
 
     
 }
@@ -156,35 +156,6 @@ span{
     
     
   
-}
-
-.test1{
-
-    text-align: center;
-    padding: 53px 25px 10px 25px;
-
-    
-}
-
-.check a.background-color{
-    background-color: #DD0000;
-    color: #FFFFFF;
-    
-}
-
-.background-color{
-
-    background-color: #FFFFFF;
-    text-decoration: none;
-    color: #161616;
-    font-weight: bolder;
-    text-align: center;
-     padding-top: 20px;
-     padding-bottom: 20px;
-     padding-left: 25px;
-     padding-right: 25px;
-     border-radius: 1.5%;
-      
 }
 
 /*----------
@@ -313,7 +284,7 @@ hr{
 
     text-align: center;
     font-size: 1.2rem;
-    padding: 20px 30px;
+    padding: 20px 20px;
 
 
 
