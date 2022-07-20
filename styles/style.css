@@ -33,14 +33,18 @@ body{
     display: flex;
 }
 
+
+
 h1.banner-text{
 
     color: #FFFFFF;
     margin-left: 4%;
-    margin-top: 2%;
-    font-size: 3rem;
-    
+    margin-top: 12%;
+    font-size: 3rem;   
 }
+
+
+
 .text-about{
     color: #B9B9B9;
     font-size: 0.7rem;
@@ -83,6 +87,14 @@ img.first-image{
 
     display: flex;
     
+    
+}
+
+.box-problem{
+
+    display: none;
+    text-align: center;
+    text-decoration: none;
 }
 
 .box-form {
@@ -112,7 +124,7 @@ span{
     background-color: #DD0000;
     padding: 10px 80px;
     border-radius: 7px;
-}
+} */
 
 .test{
     height: 312px;
@@ -272,7 +284,7 @@ hr{
 
 .icon a{
 
-    color: #DD0000;
+    color: #1DA1F2;
 }
 
 .icon {
