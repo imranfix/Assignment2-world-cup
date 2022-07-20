@@ -1,0 +1,95 @@
+/* Common Styles */
+*{
+
+    margin: opx;
+    padding: 0px;
+}
+
+/*-------------
+    font
+ ------------- */
+
+
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Fasthand&family=Lobster+Two&family=Open+Sans&family=Poppins:wght@400;500&family=Readex+Pro&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+
+.start-header{
+
+    text-align: center;
+    margin-top: 55px;
+   
+}
+
+.design1{
+    color: green;
+}
+
+.design2{
+    color: #de5499;
+}
+/*------------
+ leadboard section
+ -------------- */
+
+
+.container{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 0.5px;
+    padding: 0px 266px;
+    margin-bottom: 30px;
+}
+
+.testing-grid{
+
+    box-shadow: 0px 15px 40px gray;
+    height: 240px;
+    width: 276px;
+    margin-top: 30px;
+    margin-left: 12px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding: 18px 10px;
+}
+
+.img-vs{
+
+    display: flex;
+    justify-content: center;
+}
+
+.img-set{
+
+    height: 56px;
+    width:202px ;
+    margin-top: 18px;
+    padding: 0px 8px;
+}
+
+.text-set{
+
+    color: #161616;
+}
+.match-time{
+
+    text-align: center;
+}
+
+h4{
+    color: #161616;
+    padding: -5px 0px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+p{
+color: #B9B9B9;
+font-size: 0.6rem;
+font-weight: 700;
+}
