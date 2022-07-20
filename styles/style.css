@@ -32,7 +32,7 @@ h1.banner-text{
     
 }
 .text-about{
-    color: #FFFFFF;
+    color: #B9B9B9;
     font-size: 0.7rem;
     margin-top: 0.9%;
     margin-left: 4%;
@@ -61,31 +61,25 @@ img.first-image{
 
     height: 80%;
     width: 100%;
-    margin-top: 33%;
-    padding-right: 9%;
+    margin-top: 129px;
+    padding-right: 344px;
 }
 
  /* box section */
 
- /* .box-background{
+.testing{
 
-    height: 312px;
-    width: 312px;
-    background-color: #161616;
-    border-radius: 2%;
-    margin-top: 3%;
-    margin-left: 5%;
-    display: block;
+    display: flex;
     
- } */
-
+}
 
 .test{
     height: 312px;
     width: 312px;
     background-color: #161616;
     border-radius: 2%;
-    margin-top: 5%;
+    margin-top: 113px;
+    margin-left: 80px;
     
     
   
@@ -94,13 +88,14 @@ img.first-image{
 .test1{
 
     text-align: center;
-    padding: 40px 0px;
+    padding: 53px 25px 10px 25px;
 
     
 }
 
-span a.background-color{
+.check a.background-color{
     background-color: #DD0000;
+    color: #FFFFFF;
     
 }
 
@@ -127,8 +122,9 @@ span a.background-color{
     display: grid;
     grid-template-columns: repeat(3, 2fr);
     justify-content: center;
-    row-gap: 10px;
+    row-gap: 6px;
     padding: 0px 244px;
+    margin: 100px -230px;
 }
 
 .box-shadow{
@@ -136,7 +132,7 @@ span a.background-color{
     height: 303px;
     width: 276px;
     margin-top: 20px;
-    margin-left: 14px;
+    margin-left: 12px;
     border-radius: 8px;
     background-color: #FFFFFF;
     padding: 18px 18px;
@@ -172,18 +168,62 @@ img{
     margin-top: 30px;
     font-size: 0.8rem;
     color: #161616;
+    
 }
 
 .fa-clock{
 
-    font-size: 00.7rem;
-    color: #161616;
-
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #B9B9B9;
 }
 
 .fa-comment-dots{
-    font-size: 00.7rem;
-    color: #161616;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: #B9B9B9;
+    margin: 0px 10px;
 
 
+}
+
+/* footer section */
+
+footer{
+
+    background-color: #161616;
+}
+
+.last-text{
+
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    font-weight:700;
+    text-align: center;
+    padding-top: 30px;
+}
+
+hr{
+
+    color: #FFFFFF;
+    opacity: 0.1;
+    margin: 43px 200px;
+}
+
+.services{
+
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 35px;
+    padding-bottom: 30px;
+
+
+}
+
+ul li{
+
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #B9B9B9;
 }
