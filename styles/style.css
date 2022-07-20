@@ -40,7 +40,7 @@ h1.banner-text{
     color: #FFFFFF;
     margin-left: 4%;
     margin-top: 12%;
-    font-size: 3rem;   
+    font-size: 3em;   
 }
 
 
@@ -234,7 +234,7 @@ span{
  footer section
  --------------- */
 
-footer{
+.check33{
 
     background-color: #161616;
 }
@@ -286,6 +286,78 @@ hr{
     font-size: 1.2rem;
     padding: 20px 20px;
 
+}
 
+
+
+
+/*-----------------------------------
+ @media Queries section and Responsive
+---------------------------------------*/
+/* For Mobile  */
+
+@media only screen and (max-width: 688px){
+
+    .banner-header {
+        background-color: red;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+
+            background-color: #161616;
+            height: 1189px;
+            width: 388px;
+            margin-left: 9%;
+            margin-top: -4%;
+            display: flex;
+        
+    }
+    
+    h1.banner-text {
+        color: #FFFFFF;
+        margin-left: 2%;
+        margin-top: 12%;
+        font-size: 3.5em;
+    }
+    .test {
+
+        margin-top: 32px;
+        margin-left: 72px;
+    }
+
+    
+.container {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    row-gap: 6px;
+    padding: 0px 241px;
+    margin: 362px -625px;
+}
+
+.text-about{
+
+    margin-top: 14.9%;
+}
+
+.button-set{
+    margin-top: 13.5%;
+}
+
+img.first-image{
+
+    margin-top: 77px;
+}
+    .check33{
+
+        margin-left: 65px;
+    }
+
+    
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 }
