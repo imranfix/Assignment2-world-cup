@@ -1,6 +1,7 @@
 /*----------- 
 Common Styles
  -------------*/
+ 
 *{
 
     margin: 0px;
@@ -294,7 +295,8 @@ hr{
 /*-----------------------------------
  @media Queries section and Responsive
 ---------------------------------------*/
-/* For Mobile  */
+
+/* For Mobile Devices  */
 
 @media only screen and (max-width: 688px){
 
@@ -362,7 +364,7 @@ img.first-image{
 
 }
 
-/* for Tablet */
+/* for Tablet Devices */
 
 @media screen and (min-width: 689px) and (max-width: 1023px) {
 
