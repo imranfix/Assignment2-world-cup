@@ -1,0 +1,38 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body{  
+    @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Fasthand&family=Lobster+Two&family=Open+Sans&family=Poppins:wght@400;500&family=Readex+Pro&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+    
+font-family: 'Poppins', sans-serif;
+}
+
+.start{
+
+    text-align: center;
+    font-size: 40px;
+    color: green;
+    margin-top: 60px;
+}
+
+table{
+
+    
+    height: 600px;
+    width: 850px;
+    margin: 100px 510px 100px 350px;
+    border-collapse: collapse;
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+td, th{
+    border: 2px solid lightgray;
+    padding: 0px 70px;
+    font-size: 20PX;
+    }
+    
