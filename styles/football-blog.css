@@ -1,0 +1,95 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Fasthand&family=Lobster+Two&family=Open+Sans&family=Poppins:wght@400;500&family=Readex+Pro&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+    font-family: 'Poppins', sans-serif;
+}
+
+.head-set{
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+span{
+    color: orangered;
+}
+
+.about-text{
+
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+hr{
+
+    margin: 30px 400px 30px 400px;
+    opacity: 0.3;
+}
+
+.box-items{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.box-shadow{
+    box-shadow: 0px 10px 40px #bccdbe;
+    height: 353px;
+    width: 276px;
+    margin-top: 20px;
+    margin-left: 13px;
+    border-radius: 8px;
+    background-color: #73a24e;
+    padding: 18px 18px;
+       
+} 
+
+.fit-img{
+
+    height: 170px;
+    width: 276px;
+}
+
+.first{
+
+    margin-top: 10px;
+    font-size: 16px ;
+    color: white;
+
+}
+.second{
+
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+    
+}
+
+.third{
+
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+
+.btn{
+
+    margin-top: 15px;
+    padding: 5px 15px 5px 15px;
+    background-color: gold;
+    border: gold;
+    border-radius: 5px;
+
+
+}
