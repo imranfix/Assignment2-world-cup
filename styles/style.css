@@ -361,3 +361,77 @@ img.first-image{
 }
 
 }
+
+/* for Tablet */
+
+@media screen and (min-width: 689px) and (max-width: 1023px) {
+
+    .banner-header{
+
+        height: 609px;
+        width: 811px;
+        margin-top: -3%;
+        border-radius: 0px;
+    }
+
+    img.first-image {
+        height: 80%;
+        width: 100%;
+        margin-top: 121px;
+        padding-right: 344px;
+    }
+
+    .test{
+    
+            height: 0px;
+            width: 310px;
+
+    }
+
+    .test22{
+        display: flex;
+        margin-left: 91px;
+        margin-top: -42px;
+        padding: 2px 30px 2px 30px;
+    }
+
+    a{
+
+        background-color: orange;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        row-gap: 6px;
+        padding: 0px 0px;
+        margin: 287px -314px;
+    }
+
+    .text-about{
+
+        margin-left: 13%
+}
+
+    h1.banner-text{
+
+        margin-left: 12%;
+    }
+    .button-link{
+
+        margin-left: 13%;
+    }
+
+    .check33{
+
+        width: 100%;
+        margin-left: 70px;
+    }
+
+    ul.services{
+
+    font-size: 0.6em;
+    }
+
+
+}
